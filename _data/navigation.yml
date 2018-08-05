@@ -1,6 +1,16 @@
 # Site navigation links
 
-- title:
-  url:
+- title: About
+  url: /about
+  excerpt:
+  image:
+
+- title: Portfolio
+  url: /portfolio
+  excerpt:
+  image:
+
+- title: Tech
+  url: /tech
   excerpt:
   image:
