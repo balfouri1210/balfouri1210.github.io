@@ -1,3 +1,10 @@
+---
+layout: media
+title: "Balfouri's first post"
+image:
+  teaser: balfouri.png
+---
+
 
 ## This is first post of Balfouri ##
 
