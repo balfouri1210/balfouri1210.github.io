@@ -130,6 +130,7 @@ figure {
   }
   a {
     img {
+			height: 13rem;
       /* Image hover animation */
       @include transition(box-shadow 0.3s);
       &:hover {
