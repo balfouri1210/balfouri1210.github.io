@@ -1,11 +1,12 @@
 ---
 layout: media
-title: "Second post"
+title: "Third post"
 image:
   teaser: vue_logo.png
+category: tech
 ---
 
 
 ## This is third post of Balfouri ##
 
-About 'Vue.js'
+THIRD. About 'Vue.js'
