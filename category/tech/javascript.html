@@ -1,0 +1,15 @@
+---
+title: Javascript
+permalink: tech/javascript
+layout: default
+---
+
+<div id="main" role="main">
+  <div class="wrap">
+    <div class="tiles">
+    {% for post in site.categories['javascript'] %}
+    	{% include post-grid.html %}
+    {% endfor %}
+    </div><!-- /.tiles -->
+  </div><!-- /.wrap -->
+</div><!-- /#main -->
