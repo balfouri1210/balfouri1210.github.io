@@ -3,6 +3,7 @@ layout: media
 title: "Balfouri's first post"
 image:
   teaser: balfouri.png
+category: tech
 ---
 
 
