@@ -2,7 +2,7 @@
 layout: media
 title: "QnA about Jekyll"
 comments: true
-category: [ tech, etc ]
+category: [ tech, ETC ]
 image:
   teaser: jekyll_logo.png
 ---
