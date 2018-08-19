@@ -17,6 +17,9 @@
     color: lighten($text-color,25);
   }
   .post-title {
+    a {
+      color: #222;
+    }
     @include font-size(18,no);
   }
   .post-excerpt {
