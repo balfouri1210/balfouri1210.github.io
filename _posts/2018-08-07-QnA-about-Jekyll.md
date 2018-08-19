@@ -6,7 +6,7 @@ image:
   teaser: jekyll_logo.png
 ---
 
-Jekyll 초심자가 Jekyll 문외한에게.
+Jekyll 초심자가 Jekyll 문외한에게
 
 요즘 개인 블로그 만들기는 참 쉽습니다.  
 대형 포털사이트나 구글에서 제공하는 블로그 서비스부터 티스토리, 미디엄같은 블로그 전문 플랫폼까지
