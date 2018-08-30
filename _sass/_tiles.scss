@@ -23,6 +23,8 @@
     @include font-size(18,no);
   }
   .post-excerpt {
+    margin-top: 0;
+    font-weight: 300;
     @include font-size(16);
   }
   .post-teaser {

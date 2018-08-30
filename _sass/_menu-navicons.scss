@@ -14,6 +14,7 @@
 }
 
 .nav-lines {
+  margin-bottom: 3px;
   @include line;
   position: relative;
   &:before, &:after {

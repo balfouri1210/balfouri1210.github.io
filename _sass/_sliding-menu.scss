@@ -116,15 +116,13 @@
   li {
     display: block;
     position: relative;
-    padding-bottom: 1em;
+    padding-bottom: 0;
     min-height: 70px;
-    @include media($small) {
-      min-height: 100px;
-    }
   }
   .menu-item {
     a {
       display: block;
+      margin-bottom: 12px;
       color: $white;
       text-decoration: none;
     }
@@ -150,16 +148,14 @@
       @include font-size(24,no);
       font-weight: 700;
       @include media($small) {
-        margin-left: 170px;
         @include font-size(32,no);
       }
     }
     .excerpt {
       margin-top: 0;
-      margin-left: 60px;
+      margin-left: 80px;
       @include font-size(14,no);
       @include media($small) {
-        margin-left: 170px;
         @include font-size(16,no);
       }
     }
