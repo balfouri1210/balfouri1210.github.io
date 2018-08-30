@@ -156,7 +156,7 @@
       margin-left: 80px;
       @include font-size(14,no);
       @include media($small) {
-        @include font-size(16,no);
+        @include font-size(16,no,1);
       }
     }
   }
