@@ -2,7 +2,7 @@
 layout: media
 title: "Third post"
 image:
-  teaser: vue_logo.png
+  teaser: icon_vue.png
 category: [ tech, javascript ]
 ---
 
