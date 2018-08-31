@@ -16,8 +16,10 @@
     margin: 8px 0;
   }
 
-  &__skills {
-    .about__skills-list {
+  &__skills,
+  &__experienced {
+    .about__skills-list,
+    .about__experienced-list {
       margin-left: 16px;
       padding: 0;
       list-style: none;

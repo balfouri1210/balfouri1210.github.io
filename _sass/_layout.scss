@@ -337,7 +337,7 @@
 	@include outer-container;
 	margin-top: (3 * (0px + $doc-line-height));
 	margin-top: (3 * (0rem + ($doc-line-height / $doc-font-size)));
-	padding-bottom: $gutter;
+	padding: $gutter;
 	font-family: $alt-font;
   /* Copyright text */
 	.copyright {
@@ -347,5 +347,10 @@
 			color: lighten($black,60);
 			text-decoration: none;
 		}
+	}
+
+	@include media($medium) {
+		padding: 0;
+		padding-bottom: $gutter;
 	}
 }
