@@ -1,0 +1,15 @@
+---
+title: Publishing
+permalink: tech/publishing
+layout: default
+---
+
+<div id="main" role="main">
+  <div class="wrap">
+    <div class="tiles">
+    {% for post in site.categories['publishing'] %}
+    	{% include post-grid.html %}
+    {% endfor %}
+    </div><!-- /.tiles -->
+  </div><!-- /.wrap -->
+</div><!-- /#main -->
