@@ -7,7 +7,7 @@
         <div class="title">{{ link.title }}</div>
         {% if link.excerpt %}
           {% for excerpt in link.excerpt %}
-            <a href="{{ site.url }}{{ link.url }}/{{ excerpt }}" class="excerpt">{{ excerpt }}</p>
+            <a href="{{ site.url }}{{ link.url }}/{{ excerpt | downcase }}" class="excerpt">{{ excerpt }}</p>
           {% endfor %}
         {% endif %}
       </a>
