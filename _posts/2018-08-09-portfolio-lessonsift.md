@@ -2,7 +2,7 @@
 layout: media
 title: "Lessonsift"
 image:
-  teaser: lessonsift.png
+  teaser: post_thumbnail/lessonsift.png
 category: portfolio
 ---
 
