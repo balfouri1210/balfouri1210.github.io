@@ -96,10 +96,3 @@ jQuery의 chaining 문법이 static 분석에 그리 좋지 못하다는 결론�
 
 그럼에도 불구하고 큰 프로젝트가 아니라면, Vanilla JS + jQuery 조합은 아직 매력적이라고 느껴지네요.  
 JS의 역사에서 jQuery가 가지는 영향력이 참 큰 것 같습니다.
-
-  <!-- {% highlight javascript %}
-  // LEGACY APPROACH  
-  $(document).on('ajaxSuccess', 'form.js-widget', function(event, xhr, settings, data) {  
-    // insert response data somewhere into the DOM  
-  })  
-  {% endhighlight %} -->
