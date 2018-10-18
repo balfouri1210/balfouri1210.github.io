@@ -16,6 +16,11 @@ p {
 	@include font-size(18,yes,28);
 }
 
+.caption {
+	@include font-size(14, no, 20);
+	color: #adadad;
+}
+
 li {
 	@include font-size(16,12,24);
 }
