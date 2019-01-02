@@ -21,10 +21,13 @@ pre.highlight {
 }
 
 .highlight {
+  background: black;
+  width: 100%;
+  margin: 0 !important;
 	overflow-x: auto;
 	@include font-size(16);
 	border: 1px solid darken($body-color, 5);
-	border-radius: $border-radius;
+	border-radius: 6px;
 	pre {
 		position: relative;
 		margin: 0;
