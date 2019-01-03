@@ -85,10 +85,20 @@ getters: {
   movieFilter: state => {
     return state.movieList.filter(movie => movie.age !== 19)
   }
+
+  // 첫 번째 인자로 state,
+  // 두 번째 인자로 getters를 받습니다. (다른 getter를 호출할 수 있습니다)
 }
 ```
 
 위와 같이 getters만 설정해주면, 복수의 컴포넌트에서 중복되는 로직을 피할 수 있습니다.  
+컴포넌트에서는  
+
+```js
+let movieCount = store.getters.movieFilter().length
+```
+
+위와 같이
 
 -----
 
