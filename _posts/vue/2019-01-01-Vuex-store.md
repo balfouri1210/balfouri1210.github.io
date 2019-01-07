@@ -45,6 +45,8 @@ const store = new Vuex.Store({
 ```
 
 count라는 상태를 저장하는 Vuex store가 완성됐습니다.  
+Store객체를 구성하는데 쓰이는 state, mutations등에 대한 정체는 모르고 넘어가셔도 좋습니다. 다음 포스트에서 설명할 예정입니다.  
+Store객체가 count라는 상태를 관리하고, 이를 조작하는데 쓰이는 메소드를 갖고 있구나. 정도로만 이해하시면 될 것 같습니다.
 Vue component에서 아래와 같이 접근 및 변경할 수 있습니다.
 
 
@@ -53,7 +55,7 @@ store.commit('countIncrement')
 console.log(store.state.count)
 ```
 
-**countIncrement** 라는 commit을 통해 state.count의 값을 변경하는 것을 볼 수 있습니다. 전역변수를 직접 변경하는 것 보다 명시적이고, 코드를 읽을 때 상태변화를 더 잘 지켜볼 수 있습니다.  
+**countIncrement** 라는 commit을 통해 state.count의 값을 변경하는 것을 볼 수 있습니다. 별도의 액션(commit)을 통해 상태를 변경하면 전역변수를 직접 변경하는 것 보다 명시적이고, 코드를 읽을 때 상태변화를 더 잘 지켜볼 수 있습니다.  
 
 Vuex store 객체는 다섯가지 파라미터를 전달받아 만들어지는데요,
 
