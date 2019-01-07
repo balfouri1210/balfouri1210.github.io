@@ -98,9 +98,12 @@ getters: {
 let movieCount = store.getters.movieFilter().length
 ```
 
-위와 같이
+위와 같이 getter를 호출하여 더 간단한 로직을 구성할 수 있습니다.
 
 -----
+
+**3. Mutations**
+
 
 
 
