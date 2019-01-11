@@ -7,7 +7,7 @@ image:
   teaser: post_thumbnail/virtual_dom.png
 ---
 
-가상 DOM에 대하여
+가상 DOM 이란?
 
 가상 DOM, Virtual DOM, Shadow DOM 같은 용어를 들어본적이 있으신가요?  
 DOM은 알겠는데, 가상이라고?  
